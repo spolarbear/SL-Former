@@ -209,20 +209,6 @@ Model trained with token encoding (`VOXEL_TOKEN_INIT_PHYSICS='rich8'`), 4,000 va
 
 ---
 
-## 📄 Citation
-
-If you use this repository or the dataset in your research, please cite:
-
-```bibtex
-@misc{slformer2026,
-  title={Surrogate Model for Seismic Response of Frame Structures via Member Micro-element Tokenization},
-  author={},
-  year={2026},
-  note={Dataset and code}
-}
-```
-
----
 
 ## 🛠 Troubleshooting
 
