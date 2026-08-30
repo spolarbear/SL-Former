@@ -72,6 +72,9 @@ Each discrete micro-element token is mapped to a **physical vector** that is PCA
 | Class separation ↑ | 1.151 | **1.560** | 1.367 |
 | Cluster radius ↓ | 0.269 | **0.167** | 0.572 |
 
+<img width="2822" height="2374" alt="voxel_vocab_pca_2d" src="https://github.com/user-attachments/assets/c278e953-683c-4c84-acf7-2cebefa1d223" />
+<img width="4684" height="2074" alt="voxel_vocab_stiffness" src="https://github.com/user-attachments/assets/cf69d352-23cd-4b0d-b70f-91ea211b6f47" />
+
 `hexa9` (six-face stiffness) separates member types most cleanly because it explicitly encodes the *spatial direction* of stiffness (columns → Z, beams → X/Y).
 
 ### 3. Transformer backbone (SLFormer)
@@ -98,6 +101,15 @@ Built and managed in **PostgreSQL** (`slf_sim`, `_v3` suffix tables):
 | Story heights | 3–6 m |
 | Floor loads | 10 / 15 / 20 / 25 kPa per floor |
 | Member sections | 200 mm module, bottom-to-top taper |
+
+<img width="4684" height="2074" alt="voxel_vocab_stiffness" src="https://github.com/user-attachments/assets/3099cdff-1144-4d18-8853-5b467c16072b" />
+<img width="4172" height="2375" alt="distribution_struct" src="https://github.com/user-attachments/assets/c5279af6-a217-40c4-9cf2-ade468bfee6b" />
+<img width="3572" height="2375" alt="distribution_motion" src="https://github.com/user-attachments/assets/dee23374-3145-427e-ba55-a3cda68a8e29" />
+<img width="3572" height="2375" alt="distribution_response" src="https://github.com/user-attachments/assets/1ead95f4-861e-4bc9-840a-af00a1d117da" />
+<img width="3572" height="1175" alt="distribution_struct_extra" src="https://github.com/user-attachments/assets/1cb7dd29-1a10-490f-a2bd-bad7568a4cf1" />
+<img width="3865" height="2972" alt="sampling_distribution" src="https://github.com/user-attachments/assets/519b7cad-cc79-4f19-a346-32e8b8967771" />
+<img width="4472" height="1325" alt="coverage_check" src="https://github.com/user-attachments/assets/95a3aa6d-d97d-4e98-9f7e-e8a2afebe523" />
+
 
 **Sampling strategy** (for training): stratified uniform sampling over *number of stories × response magnitude × structure form* — keeps the validation set diverse and unbiased.
 
