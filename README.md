@@ -21,7 +21,7 @@ which is currently **under review** for possible publication in **Engineering St
 
 We respectfully invite the editorial team to access this repository for a detailed review of the data, code, and supplementary materials accompanying the manuscript. Your professional insights and constructive suggestions are highly appreciated.
 
-Should you have any questions or require additional information, please do not hesitate to contact the corresponding author.
+Should you have any questions or require additional information, please contact the corresponding author.
 
 ---
 
