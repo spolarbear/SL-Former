@@ -168,12 +168,11 @@ python dataset_comparison.py --use_db --only all,rect_only,rect_load15
 python evaluate.py --use_db --model ./models_voxel_token/model/best_model.pth --out ./plots/eval_sci
 ```
 
-<img width="3565" height="2974" alt="evaluation_overview" src="https://github.com/user-attachments/assets/58c27866-f88b-4868-a4c7-816ba1b9d61b" />
-<img width="4443" height="3873" alt="error_analysis" src="https://github.com/user-attachments/assets/39d4f3ea-9a98-4624-8599-5f98e85d583f" />
-<img width="2254" height="2074" alt="peak_scatter" src="https://github.com/user-attachments/assets/c714e3aa-7a92-4c77-b8b5-9eeb87c8a39b" />
-<img width="4466" height="2659" alt="peak_scatter_by_height" src="https://github.com/user-attachments/assets/6518ed70-4ef8-4ebf-9855-19f967be8b97" />
-<img width="3568" height="2976" alt="relative_error" src="https://github.com/user-attachments/assets/e1618adf-6555-42b6-adcf-e84570801c1e" />
-<img width="4469" height="10475" alt="sample_comparison" src="https://github.com/user-attachments/assets/1279b125-dfea-4c3c-bbe6-2f162b83cba7" />
+<img width="3565" height="2974" alt="evaluation_overview" src="https://github.com/user-attachments/assets/6ee6de55-01a7-46af-ab26-c0ffbc4f4cbf" />
+<img width="4443" height="3873" alt="error_analysis" src="https://github.com/user-attachments/assets/40ffa712-97c0-4db4-b17b-f8f3a083ac3c" />
+<img width="3568" height="2976" alt="relative_error" src="https://github.com/user-attachments/assets/c862a863-ab0c-41b8-b531-07e442704379" />
+<img width="2254" height="2074" alt="peak_scatter" src="https://github.com/user-attachments/assets/1ad63523-efa9-4e16-9857-f875292006e6" />
+<img width="4469" height="10475" alt="sample_comparison" src="https://github.com/user-attachments/assets/4225a13f-df9a-4a79-97f1-48e064f9a710" />
 
 
 
