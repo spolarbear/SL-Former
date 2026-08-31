@@ -11,6 +11,30 @@
 
 ---
 
+# Notice: Manuscript Under Review
+
+**This repository contains the manuscript entitled**  
+
+> *Generalized Voxel-Token Encoding and Transformer-Based Seismic Response Prediction for Frame Structures*
+
+which is currently **under review** for possible publication in **Engineering Structures**.
+
+---
+
+### To the Editors of *Engineering Structures*
+
+We respectfully invite the editorial team to access this repository for a detailed review of the data, code, and supplementary materials accompanying the manuscript. Your professional insights and constructive suggestions are highly appreciated.
+
+Should you have any questions or require additional information, please do not hesitate to contact the corresponding author.
+
+---
+
+**Note**: This repository is temporarily made public for review purposes. Please refrain from citing or distributing the manuscript without explicit permission from the authors.
+
+Thank you for your time and valuable feedback.
+
+---
+
 ## 🌟 Highlights
 
 - **128-bit micro-element voxel encoding** — each grid cell stores 6-face through-connectivity, per-face cross-section (4-bit width + 4-bit height), per-face material, and 3-axis nodal offsets, capturing member topology *and* stiffness in a single discrete token.
