@@ -19,10 +19,6 @@
 
 which is currently **under review** for possible publication in **Engineering Structures**.
 
----
-
-### To the Editors of *Engineering Structures*
-
 We respectfully invite the editorial team to access this repository for a detailed review of the data, code, and supplementary materials accompanying the manuscript. Your professional insights and constructive suggestions are highly appreciated.
 
 Should you have any questions or require additional information, please do not hesitate to contact the corresponding author.
