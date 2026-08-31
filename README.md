@@ -109,6 +109,8 @@ Built and managed in **PostgreSQL** (`slf_sim`, `_v3` suffix tables):
 <img width="3572" height="1175" alt="distribution_struct_extra" src="https://github.com/user-attachments/assets/1cb7dd29-1a10-490f-a2bd-bad7568a4cf1" />
 <img width="3865" height="2972" alt="sampling_distribution" src="https://github.com/user-attachments/assets/519b7cad-cc79-4f19-a346-32e8b8967771" />
 <img width="4472" height="1325" alt="coverage_check" src="https://github.com/user-attachments/assets/95a3aa6d-d97d-4e98-9f7e-e8a2afebe523" />
+<img width="2633" height="2024" alt="comprehensive_report" src="https://github.com/user-attachments/assets/412098de-4284-43ac-9d7d-5bf9785f6f14" />
+<img width="2633" height="2024" alt="comprehensive_report" src="https://github.com/user-attachments/assets/02cfd92f-9cfa-4b3b-b672-f75094771d6d" />
 
 
 **Sampling strategy** (for training): stratified uniform sampling over *number of stories × response magnitude × structure form* — keeps the validation set diverse and unbiased.
